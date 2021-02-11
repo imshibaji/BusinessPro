@@ -1,0 +1,10 @@
+{
+    "Erp": true,
+    "Finance": true,
+    "Plan": true,
+    "Hr": true,
+    "Dashboard": true,
+    "User": true,
+    "Admin": true,
+    "Portal": true
+}

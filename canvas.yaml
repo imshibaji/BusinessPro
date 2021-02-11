@@ -1,0 +1,31 @@
+preset: admin
+
+namespace: Shibaji\Admin
+user-auth-provider: App\User
+
+paths:
+  src: admin/src
+  resource: admin/src/resources
+
+factory:
+  path: admin/src/database/factories
+
+seeder:
+  path: admin/src/database/seeders
+
+
+migration:
+  path: admin/src/database/migrations
+  prefix: ''
+
+console:
+  namespace: Shibaji\Admin\Console
+
+model:
+  namespace: Shibaji\Admin\Models
+
+provider:
+  namespace: Shibaji\Admin\Providers
+
+testing:
+  namespace: Shibaji\Admin\Tests
